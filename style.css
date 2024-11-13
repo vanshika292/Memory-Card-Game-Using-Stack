@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f0f1ff;
+}
+
+nav{
+    display: flex;
+    height: 50px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 1px 1px 6px #c5e4f5;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+}
+
+nav button{
+    font-size: 1rem;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: #5664f5;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color: rgb(205, 22, 22);
+}
+
+main{
+    display: flex;
+}
+
+.winners{
+    width: 20%;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #e0e4fb;
+    padding: 3% 2%;
+    box-shadow: 1px 3px 5px #5d62a1;
+}
+
+.winners h2{
+    margin-bottom: 10px;
+}
+
+.ranking{
+    display: flex;
+    justify-content: space-between;
+}
+
+#rank h4{
+    margin: 5px 0;
+}
+
+#score h4{
+    margin: 5px 0;
+}
+
+.cards img{
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px #5d62a1;
+    
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5%;
+    max-width: 700px;
+    margin: 5px  auto 0;
+}
