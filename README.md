@@ -1,4 +1,4 @@
-Memory Match Game 🃏
+Memory Card Game 🃏
 A fun and interactive memory card matching game built with HTML, CSS, and JavaScript. Test your memory by flipping cards, finding pairs, and tracking your score. The game includes a leaderboard that ranks players based on their score, making it perfect for friendly competitions!
 
 
